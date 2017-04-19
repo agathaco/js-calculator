@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Simple Calculator</title>
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:300'>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<div id="calculator-container">
+<div id="blur"></div>
+<div id="calculator"> 
+  <!-- Screen and clear key -->
+  <div class="row top">
+    <div class="input"></div>
+    <div class="result"></div>
+  </div>
+  <div class="keys"> 
+    <div class="row"><span class="operator-top" data-value="C">C</span>
+    <span class="operator-top" data-value="+/-">+/-</span> 
+    <span class="operator-top" data-value="%">%</span> 
+    <span class="operator-right" data-value="/">&divide;</span> </div>
+    <div class="row"><span data-value="7">7</span> 
+    <span data-value="8">8</span> 
+    <span data-value="9">9</span> 
+    <span class="operator-right" data-value="*">x</span></div>
+    <div class="row"><span data-value="4">4</span> 
+    <span data-value="5">5</span> 
+    <span data-value="6">6</span> 
+     <span class="operator-right" data-value="-">-</span> </div>
+    <div class="row"><span data-value="1">1</span> 
+    <span data-value="2">2</span> 
+    <span data-value="3">3</span> 
+    <span class="operator-right" data-value="+">+</span> </div>
+    <div class="row">  <span data-value="0" class="zero">0</span> 
+    <span data-value=".">.</span> 
+    <span class="operator-right" data-value="=">=</span> </div>
+  
+    
+    </div>
+</div></div>
+
+
+<!-- PrefixFree --> 
+<script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript"></script> 
+	<script src="js/scripts.js"></script>
+</body>
+</html>
